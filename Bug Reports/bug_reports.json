@@ -1,0 +1,63 @@
+{
+  "Bug_id": "1",
+  "Priority": "Medium",
+  "Summary": "Chat - the creator of a group conversation can't rename it",
+  "Environment": "www.website.com",
+  "Steps to reproduce":
+  {
+    "1": "Open www.website.com",
+    "2": "Sign in: login - test3/ password - test123",
+    "3": "Open a chat dialog with 'Test Testington'",
+    "4": "Click on the button 'Settings'- add user",
+    "5": "Add any user to a group conversation - click 'Done'",
+    "6": "Click again on 'Settings' to rename the group conversation"
+  },
+  "Expected result": "All participants must be able to rename a group conversation",
+  "Actual result": "'Rename conversation' is disabled for the creator of the group conversation"
+},
+
+
+{
+  "Bug_id": "2",
+  "Priority": "Hight",
+  "Summary": "The total price does not reflect the quantity of the item",
+  "Environment": "www.amazon.com",
+  "Steps to reproduce":
+  {
+    "1": "Open www.testamazon.com",
+    "2": "Navigate to any Category",
+    "3": "Add any item to the Cart",
+    "4": "Go to the Cart",
+    "5": "Change quantity of the product",
+    "6": "Go to the Payment page",
+    "7": "Observe the total price"
+  },
+  "Expected result": "The total price should reflect the quantity of the product",
+  "Actual result": "Displaying the total price for 1 item only"
+},
+
+{
+  "Bug_id": "3",
+  "Priority": "Hight",
+  "Summary": "Error message appears when navigating to 'Your Account'",
+  "Environment": "www.amazon.com",
+  "Steps to reproduce":
+  {
+    "1": "Open www.testamazon.com",
+    "2": "Tap on the humburger menu",
+    "3": "Scroll down the page",
+    "4": "Tap on Your Account",
+    "5": "Observe the error message"
+  },
+  "Expected result": "User should be redirected to Account page",
+  "Actual result": "'Page not found 404' error message appears when clicking on your account"
+}
+
+
+
+
+
+
+
+
+
