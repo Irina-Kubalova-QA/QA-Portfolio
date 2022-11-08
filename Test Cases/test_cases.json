@@ -1,0 +1,12 @@
+{
+  "TestCase_id": "2",
+  "Title": "The total price should reflect the value after the discount",
+  "Steps":
+  {
+    "1": "Go to any Category",
+    "2": "Add any item with a discount to the Cart",
+    "3": "Go to the Cart",
+    "4": "Go to the Payment page"
+  },
+  "Expected result": "The total price should reflect the value after the discount"
+}
